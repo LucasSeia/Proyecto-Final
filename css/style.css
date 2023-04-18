@@ -1,0 +1,708 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    /* margin: 0; */
+    /* font-family: var(--bs-body-font-family); */
+    /* font-size: var(--bs-body-font-size); */
+    /* font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent; */
+}
+
+.navbar-brand img {
+    width: 70px;
+    height: 70px;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+    animation-direction: normal;
+}
+
+@keyframes logo {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+
+.fondo {
+    background-color: #c70101 !important;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.show img {
+    width: 100%;
+    height: 15rem;
+}
+
+h1 {
+    background-color: #c70101;
+    color: #f2f2f2;
+    text-align: center;
+    /* margin: auto;
+    float: left;
+    position: relative; */
+    font-size: 2rem;
+    margin: 10px 0;
+    padding: 5px 0;
+    /* font-family: monospace; */
+}
+
+/* .typewriter h1 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #c70101;
+    border-left: 1px solid #000;
+
+    animation-name: maquina;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: 7;
+}
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+} */
+
+.w-100 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding: 30px;
+}
+
+.carousel-indicators {
+    margin-bottom: 3rem;
+}
+
+.main p {
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 45px;
+    border: #000 5px ridge;
+    font-family: 'Dancing Script', cursive;
+}
+
+footer {
+    background: #2a2a2a;
+    width: 100%;
+    height: 140px;
+    margin-top: auto;
+    text-align: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+/* ----------------- FIXTURE -------------------- */
+#fixture-lucas {
+    background-color: #A7E8BD;
+}
+
+.table-fixture {
+    width: 50%;
+    /* height: fit-content; */
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.table-fixture th, td {
+    padding: 6px 0;
+    border: 2px solid #000000;
+}
+
+.table-fixture tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.truco {
+    background-color: #FFD972;
+    color: #000;
+    text-align: center;
+    /* border-collapse: collapse;
+    display: table-cell;
+    vertical-align: inherit; */
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.game-time {
+    width: 60px;
+    background: #00BD9D;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+}
+
+.game-t1 {
+    width: 150px;
+    background: #e5e5e5;
+    overflow: hidden;
+    text-align: center;
+    line-height: 1.1em;
+    font-weight: 700;
+}
+
+.game-t1 img {
+    width: 25px;
+}
+
+.game-r1 {
+    width: 25px;
+    background: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.rojas1 {
+    width: 25px;
+}
+
+.liga {
+    width: 25px;
+    background: #4a66ff;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    overflow: hidden;
+}
+
+.fa-cup {
+    width: 25px;
+    background: #FB3640;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    overflow: hidden;
+}
+
+.europa-league {
+    width: 25px;
+    background: #ff6900;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    overflow: hidden;
+}
+
+.envido {
+    width: 25px;
+    background-color: #EF233C;
+    color: #fff;
+    text-align: center;
+    /* border-collapse: collapse;
+    display: table-cell;
+    vertical-align: inherit; */
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* ----------------- TABLA DE POSICIONES -------------------- */
+#premier-league {
+    background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+}
+
+#premier-league table {
+    font-size: 0.9rem;
+    width: 45%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#premier-league th, td {
+    padding: 6px 0;
+    border: 2px solid #000000;
+}
+
+#premier-league th {
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    color: white;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+
+#premier-league tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.club {
+    width: 180px;
+}
+
+.estadisticas {
+    width: 35px
+}
+
+#premier-league .left {
+    text-align: left;
+}
+
+.shield {
+    width: 25px;
+    height: 25px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.clasificado {
+    background-color: #061da5;
+    color: #fff;
+    text-align: center;
+}
+
+.uel {
+    background-color: #ff6900;
+    color: #ffffff;
+    text-align: center;
+}
+
+.conference {
+    background-color: #00be14;
+    color: #ffffff;
+    text-align: center;
+}
+
+.descenso {
+    background-color: #ff0033;
+    color: #fff;
+    text-align: center;
+}
+
+.gris-claro {
+    background-color: #e5e5e5;
+}
+
+.gris-oscuro {
+    background-color: #ccbebe;
+}
+
+.gris-oscuro td {
+    text-align: center;
+}
+
+.gris-claro td {
+    text-align: center;
+}
+
+.cp1 {
+    background: #061da5;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.cp3 {
+    background-color: #ff6900;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.cp4 {
+    background-color: #00be14;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.ds1 {
+    background-color: #ff0033;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.centrado {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* --------------- JUGADORES -------------------- */
+/* ------------ JUGADORES -------------- */
+
+#players {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+.grid-1 {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-hijo-1 {
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    color: #000;
+    padding: 7px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.grid-hijo-1:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.grid-hijo-2:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.grid-hijo-3:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.grid-hijo-4:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.grid-hijo-5:hover {
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+
+#players img {
+    width: 200px;
+    padding: 10px;
+}
+
+#players h1 {
+    background-color: #c70101;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px 0;
+    padding: 5px 0;
+    margin-bottom: 50px;
+}
+
+#players h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+    /* margin-left: 65px;
+    margin-right: 65px; */
+    /* background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%); */
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: #fff;
+    border: 5px #fff outset;
+    padding: 10px;
+}
+
+.player-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.player-details {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1px;
+}
+
+.grid-2 {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-hijo-2 {
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    color: #000;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.grid-3 {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-hijo-3 {
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+    color: #000;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.grid-4 {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-hijo-4 {
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+    color: #000;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.grid-5 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-hijo-5 {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    color: #000;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+@keyframes primer-efecto {
+    0% { width: 100px;}
+    25% { width: 300px;}
+    50% { 
+        width: 200px;
+        background-color: #00BD9D;
+    }
+    100% { 
+        width: 100px;
+        background-color: #061da5;
+    }
+
+}
+
+/* ------------ CONTACTO ------------- */
+/* #contacto {
+    background-color: #ffffff;
+    background-image: url("../recursos/logo-manchester-united.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px;
+} */
+
+.contacto {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    border-radius: 40px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.contacto .home {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contacto form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #666666;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.form-group button[type="submit"] {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0072c6;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: #005ea8;
+}
+
+
+/* MQ - Mobile Last => max-width ------- INDEX-INICIO ---------- */
+@media (max-width: 827px) {
+    .show img {
+        height: 10rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .table-fixture {
+        width: 70%;
+        font-size: 0.8rem;
+    }
+
+    .game-time {
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .game-t1 img {
+        width: 20px;
+    }
+
+    #premier-league table {
+        font-size: 0.7rem;
+        width: 80%;
+    }
+
+    .shield {
+        width: 18px;
+        height: 18px;
+    }
+
+    .cp1, .cp3, .cp4, .ds1 {
+        font-size: 0.8rem;
+    }
+} 
+
+@media (max-width: 750px) {
+    .contacto {
+        max-width: 300px;
+        border-radius: 30px;
+    }
+
+    .contacto form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 425px) {
+    .carousel-indicators {
+        margin-bottom: 1.5rem;
+    }
+    
+    .w-100 {
+        margin-bottom: 20px;
+        margin-top: 10px;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        padding: 10px;
+    }
+}
+
+/* ------------- NAVVAR ---------------- */
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 30px;
+    }
+}
