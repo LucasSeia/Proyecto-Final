@@ -375,6 +375,8 @@ footer img {
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 18px;
+    margin-right: 18px;
 }
 
 .grid-hijo-1 {
@@ -450,7 +452,6 @@ footer img {
 .player-details {
     font-size: 1.1rem;
     text-align: center;
-    padding: 1px;
 }
 
 .grid-2 {
@@ -697,6 +698,18 @@ footer img {
         /* padding-left: 50px;
         padding-right: 50px; */
         padding: 10px;
+    }
+
+    .player-name {
+        font-size: 1.2rem;
+    }
+
+    .player-details {
+        font-size: 1rem;
+    }
+
+    #players img {
+        width: 180px;
     }
 }
 
