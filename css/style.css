@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 
@@ -115,7 +115,7 @@ h1 {
     margin-right: 40px;
     margin-top: 45px;
     border: #000 5px ridge;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Manrope', sans-serif;
 }
 
 footer {
