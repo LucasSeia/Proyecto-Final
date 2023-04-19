@@ -364,7 +364,6 @@ footer img {
 
 
 /* --------------- JUGADORES -------------------- */
-/* ------------ JUGADORES -------------- */
 
 #players {
     background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
@@ -375,18 +374,17 @@ footer img {
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 18px;
-    margin-right: 18px;
 }
 
 .grid-hijo-1 {
     background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
     color: #000;
-    padding: 7px;
+    padding: 10px;
     border-radius: 50px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
     margin-bottom: 50px;
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .grid-hijo-1:hover {
@@ -699,7 +697,9 @@ footer img {
         padding-right: 50px; */
         padding: 10px;
     }
+}
 
+@media (max-width:483px) {
     .player-name {
         font-size: 1.2rem;
     }
