@@ -639,6 +639,14 @@ b {
         font-size: 1.5rem;
     }
 
+    #players h1 {
+        font-size: 1.5rem;
+    }
+
+    #players h2 {
+        font-size: 1.3rem;
+    }
+
     .game-t1 img {
         width: 20px;
     }
@@ -718,11 +726,11 @@ b {
 
 @media (max-width:483px) {
     .player-name {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .player-details {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     #players img {
