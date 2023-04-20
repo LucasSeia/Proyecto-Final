@@ -276,11 +276,15 @@ footer img {
 }
 
 .club {
-    width: 180px;
+    width: 150px;
 }
 
 .estadisticas {
     width: 35px
+}
+
+b {
+    font-size: 0.9rem;
 }
 
 #premier-league .left {
@@ -654,6 +658,14 @@ footer img {
         width: 85%;
     }
 
+    .estadisticas {
+        width: 20px;
+    }
+
+    .club {
+        width: 80px;
+    }
+
     .shield {
         width: 18px;
         height: 18px;
@@ -663,6 +675,10 @@ footer img {
 
     .cp1, .cp3, .cp4, .ds1 {
         font-size: 0.8rem;
+    }
+
+    b {
+        font-size: 0.7rem;
     }
 }
 
