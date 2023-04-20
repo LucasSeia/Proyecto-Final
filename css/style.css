@@ -121,6 +121,10 @@ footer img {
     height: 40px;
 }
 
+footer a {
+    color: transparent;
+}
+
 /* ----------------- FIXTURE -------------------- */
 #fixture-lucas {
     background-color: #A7E8BD;
